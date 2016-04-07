@@ -223,7 +223,7 @@
 <addon
     id="skin.arctic.zephyr.KodiMODo"
     version="0.0.1"
-    name="Arctic: Zephyr EasyMODo"
+    name="Arctic: Zephyr KodiMODo"
     provider-name="jurialmunkey - Mod by Chimkentec">
     <requires>
         <import addon="xbmc.gui" version="5.9.0"/>
