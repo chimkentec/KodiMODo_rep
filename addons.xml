@@ -38,7 +38,7 @@
   </extension>
 </addon>
 
-	<addon id="plugin.video.filmix.net.dev"
+	<addon id="plugin.video.filmix.net.dev.KodiMODo"
        name="Filmix.Net"
        version="0.0.5"
        provider-name="Evgenii Devisok aka evgen_dev">
@@ -53,6 +53,29 @@
 		<summary>Filmix.Net</summary>
 		<description>
 			 Filmix.Net - Вашему вниманию полнометражное кино и телесериалы, мультфильмы, трейлеры.
+		</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<email>xbmc@devisok.org</email>
+	</extension>
+</addon>
+
+	<addon id="plugin.video.zona.mobi.dev.KodiMODo"
+       name="Zona.Mobi"
+       version="0.0.2"
+       provider-name="Evgenii Devisok aka evgen_dev">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.xbmcup" version="0.1.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" provides="video" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Zona.Mobi</summary>
+		<description>
+			 Zona.Mobi - Полнометражное кино и телесериалы
 		</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -108,7 +131,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.xbmcup" name="XbmcUp" version="0.1.1" provider-name="HAL9000">
+<addon id="script.module.xbmcup.KodiMODo" name="XbmcUp" version="0.1.1" provider-name="HAL9000">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
     </requires>
