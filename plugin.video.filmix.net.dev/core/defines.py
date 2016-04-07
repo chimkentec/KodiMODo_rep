@@ -2,7 +2,7 @@
 
 SITE_DOMAIN = 'filmix.net'
 SITE_URL = 'http://'+SITE_DOMAIN
-PLUGIN_ID = 'plugin.video.filmix.net.dev.KodiMODo'
+PLUGIN_ID = 'plugin.video.filmix.net.dev'
 CACHE_DATABASE = 'filmix.cache.db'
 COOKIE_FILE = 'filmix_cookie.txt'
 
