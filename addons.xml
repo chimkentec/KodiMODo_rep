@@ -38,7 +38,7 @@
   </extension>
 </addon>
 
-	<addon id="plugin.video.filmix.net.dev"
+<addon id="plugin.video.filmix.net.dev"
        name="Filmix.Net"
        version="0.0.5"
        provider-name="Evgenii Devisok aka evgen_dev">
