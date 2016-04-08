@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.audio.101.KodiMODo"
+<addon id="plugin.audio.101"
        name="101.RU"
        version="0.1.3"
        provider-name="MazurokNN">
@@ -18,7 +18,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.audio.asbook.ru.KodiMODo"
+<addon id="plugin.audio.asbook.ru"
        name="Аудиокниги asbook.ru"
        version="1.0.10"
        provider-name="Silen">
@@ -38,7 +38,27 @@
   </extension>
 </addon>
 
-	<addon id="plugin.video.filmix.net.dev.KodiMODo"
+<addon id="plugin.video.LostFilm"
+       name="LostFilm"
+       version="0.7.3"
+       provider-name="TDW">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.torrent.ts"/>
+    <import addon="script.module.torrent2http"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>LostFilm</summary>
+    <description>LostFilm for AceStreem, YATP or Libtorrent</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+	<addon id="plugin.video.filmix.net.dev"
        name="Filmix.Net"
        version="0.0.5"
        provider-name="Evgenii Devisok aka evgen_dev">
@@ -53,6 +73,29 @@
 		<summary>Filmix.Net</summary>
 		<description>
 			 Filmix.Net - Вашему вниманию полнометражное кино и телесериалы, мультфильмы, трейлеры.
+		</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<email>xbmc@devisok.org</email>
+	</extension>
+</addon>
+
+	<addon id="plugin.video.zona.mobi.dev"
+       name="Zona.Mobi"
+       version="0.0.2"
+       provider-name="Evgenii Devisok aka evgen_dev">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.xbmcup" version="0.1.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" provides="video" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Zona.Mobi</summary>
+		<description>
+			 Zona.Mobi - Полнометражное кино и телесериалы
 		</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -81,7 +124,7 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo.KodiMODo" name="ExtendedInfo Script" version="4.0.2" provider-name="phil65, modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
+<addon id="script.extendedinfo" name="ExtendedInfo Script" version="4.0.2" provider-name="phil65, modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
@@ -103,7 +146,7 @@
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=160558</forum>
-		<source>https://github.com/phil65/script.extendedinfo.KodiMODo</source>
+		<source>https://github.com/chimkentec/KodiMODo_rep/script.extendedinfo</source>
 		<email>phil65@kodi.tv</email>
 	</extension>
 </addon>
