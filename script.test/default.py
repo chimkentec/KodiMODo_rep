@@ -16,7 +16,7 @@ class MyAddon(xbmcgui.Window):
         # Создаем текстовую надпись.
         # label = xbmcgui.ControlLabel(550, 300, 200, 50, u'Привет, мир!')
         # Добавляем наддпись в контейнер
-        self.addControl(label)
+        # self.addControl(label)
 
     def onAction(self, action):
         # Если нажали ESC или Backspace...
