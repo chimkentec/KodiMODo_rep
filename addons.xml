@@ -387,6 +387,23 @@
     </extension>
 </addon>
 
+<addon id="script.test"
+   name="Test script"
+   version="0.0.1"
+   provider-name="Roman_V_M">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Test script</summary>
+    <description lang="en">My test script.</description>
+  </extension>
+</addon>
+
 <addon
     id="skin.arctic.zephyr.KodiMODo"
     version="0.0.1"
